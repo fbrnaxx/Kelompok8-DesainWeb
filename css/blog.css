@@ -1,0 +1,109 @@
+.w3-padding {padding:8px 16px!important}
+.w3-container:after,.w3-container:before,.w3-row-padding:after,.w3-row-padding:before,.w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:both}
+.w3-container,.w3-panel{padding:0.01em 16px}.w3-panel{margin-top:16px;margin-bottom:16px}
+.w3-border-bottom{border-bottom:1px solid #ccc!important}
+.w3-border-light-grey,.w3-hover-border-light-grey:hover,.w3-border-light-gray,.w3-hover-border-light-gray:hover{border-color:#f1f1f1!important}
+.w3-padding-16{padding-top:16px!important;padding-bottom:16px!important}
+.w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col{padding:0 8px}
+.w3-col,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter{float:left;width:100%}
+.w3-col.l3{width:23.9%}
+.w3-margin-bottom{margin-bottom:16px!important}
+.w3-display-container{position:relative}.w3-display-container:hover .w3-display-hover{display:block}.w3-display-container:hover span.w3-display-hover{display:inline-block}.w3-display-hover{display:none}
+.w3-display-topleft{position:absolute;left:0;top:0}
+.w3-black,.w3-hover-black:hover{color:#fff!important;background-color:#000!important}
+.w3-center{text-align:center!important}
+
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: auto;
+}
+body #page {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: auto;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+a:active {
+	background: none;
+}
+img {
+	border: none;
+}
+
+#header {
+	background-color: #eeebec;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+#header div {
+	margin: 0 auto;
+	max-width: 940px;
+	overflow: hidden;
+	padding: 41px 10px 27px;
+}
+#header div a.logo {
+	float: left;
+	margin: 0 0 0 29px;
+	padding: 0;
+	width: auto;
+}
+#header div a.logo img {
+	display: block;
+	margin: 0;
+	height: 60px;
+	padding: 0;
+	width: auto;
+}
+#header div ul {
+	display: inline-block;
+	float: right;
+	list-style: none outside none;
+	margin: 0 auto;
+	padding: 17px 0 0;
+	text-align: center;
+	width: 513px;
+}
+#header div ul li {
+	display: inline-block;
+	float: left;
+	margin: 0 35px;
+	padding: 0;
+	position: relative;
+	width: auto;
+}
+#header div ul li a {
+	color: #7a6666;
+	font-family: lato-regular-webfont;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 15px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+#header div ul li.selected a, #header div ul li.selected a:hover {
+	color: orange;
+}
+#header div ul li a:hover, #header div ul li.menu:hover ul li a {
+	color: #00d2f7;
+}
+#header div ul li ul li a {
+	color: orange;
+	font-family: lato-regular-webfont;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 15px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
