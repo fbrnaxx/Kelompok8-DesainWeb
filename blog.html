@@ -39,25 +39,25 @@
         <div class="w3-row-padding">
             <div class="w3-col l3 w3-margin-bottom">
                 <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Bakso Itali</div>
+                    <button id="1" class="w3-display-topleft w3-black w3-padding">Bakso Itali</button>
                     <img src="images/BaksoItali.jpg" style="width:100%"></img>
                 </div>
             </div>
             <div class="w3-col l3 w3-margin-bottom">
                 <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Pizza Pasta</div>
+                    <button id="2" class="w3-display-topleft w3-black w3-padding">Pizza Pasta</button>
                     <img src="images/PizzaPasta.jpg" style="width:100%"></img>
                 </div>
             </div>
             <div class="w3-col l3 w3-margin-bottom">
                 <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Spaghetti Carbonara</div>
+                    <button id="3" class="w3-display-topleft w3-black w3-padding">Spaghetti Carbonara</button>
                     <img src="images/SpaghettiCarbonara.jpg" style="width:100%"></img>
                 </div>
             </div>
             <div class="w3-col l3 w3-margin-bottom">
                 <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Ratatouille</div>
+                    <button id="4" class="w3-display-topleft w3-black w3-padding">Ratatouille</button>
                     <img src="images/Ratatouille.jpg" style="width:100%"></img>
                 </div>
             </div>
@@ -66,29 +66,52 @@
         <div class="w3-row-padding">
             <div class="w3-col l3 w3-margin-bottom">
                 <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Rendang</div>
+                    <button id="5" class="w3-display-topleft w3-black w3-padding">Rendang</button>
                     <img src="images/RendangSapi.jpg" style="width:100%"></img>
                 </div>
             </div>
             <div class="w3-col l3 w3-margin-bottom">
                 <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Sate Taichan</div>
+                    <button id="6" class="w3-display-topleft w3-black w3-padding">Sate Taichan</button>
                     <img src="images/SateTaichan.jpg" style="width:100%"></img>
                 </div>
             </div>
             <div class="w3-col l3 w3-margin-bottom">
                 <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Gado-Gado</div>
+                    <button id="7" class="w3-display-topleft w3-black w3-padding">Gado-Gado</button>
                     <img src="images/GadoGado.jpg" style="width:100%"></img>
                 </div>
             </div>
             <div class="w3-col l3 w3-margin-bottom">
                 <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Soto Makassar</div>
+                    <button id="8" class="w3-display-topleft w3-black w3-padding">Soto Makassar</button>
                     <img src="images/SotoMakassar.jpg" style="width:100%"></img>
                 </div>
             </div>
         </div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/iik25wqIuFo?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Alat & Bahan :<br />
+        1. dodisdodat<br />
+        2. aaaaaa<br />
+        3. aegfafafw<br />
+        4. loremipsumsumtinsumtin<br />
+        ...<br />
+        <br />
+        Instruksi :<br />
+        1. trydis<br />
+        2. trydat<br />
+        3. trydos<br />
+        4. tryyyyyyyyyy<br />
+        ...<br />
+        </p>
+    </div>
+
+</div>
 
         <!-- End page content -->
     </div>
@@ -98,6 +121,26 @@
     <footer class="w3-center w3-black w3-padding-16">
         <p>Copyright of Tadika Mesra</p>
     </footer>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("1");
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
 
 </body>
 </link>
